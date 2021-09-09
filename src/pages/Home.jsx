@@ -66,7 +66,14 @@ export default function Home() {
 
         <div className="bgimg bgimg-regular">
           <div className="caption">
-            <span className="border">REGULAR CLASS</span>
+            <span
+              className="border"
+              data-aos="fade-up"
+              data-aos-easing="ease"
+              data-aos-duration="1000"
+            >
+              REGULAR CLASS
+            </span>
           </div>
         </div>
 
@@ -84,7 +91,14 @@ export default function Home() {
 
         <div className="bgimg bgimg-advanced">
           <div className="caption">
-            <span className="border">ADVANCED CLASS</span>
+            <span
+              className="border"
+              data-aos="fade-up"
+              data-aos-easing="ease"
+              data-aos-duration="1000"
+            >
+              ADVANCED CLASS
+            </span>
           </div>
         </div>
 
@@ -103,7 +117,14 @@ export default function Home() {
 
         <div className="bgimg bgimg-autonomous">
           <div className="caption">
-            <span className="border">AUTONOMOUS</span>
+            <span
+              className="border"
+              data-aos="fade-up"
+              data-aos-easing="ease"
+              data-aos-duration="1000"
+            >
+              AUTONOMOUS
+            </span>
           </div>
         </div>
 
