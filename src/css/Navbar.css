@@ -52,8 +52,7 @@
     right: 0;
     top: 0;
   }
-  .mfly-navbar.responsive a,
-  .mfly-navbar.responsive .logo {
+  .mfly-navbar.responsive a {
     float: none;
     display: block;
     text-align: left;
@@ -61,7 +60,6 @@
 }
 
 .mfly-navbar .logo {
-  float: left;
   vertical-align: middle;
   padding: 3px;
 }

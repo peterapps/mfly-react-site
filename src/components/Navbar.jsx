@@ -21,11 +21,15 @@ export default function Navbar() {
 
   return (
     <div className={"mfly-navbar" + (open ? " responsive" : "")}>
-      <div className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="M-Fly" className="logo" />
-      </div>
+      </Link>
       {links.map(({ name, path }) => (
-        <Link to={path} className={path === pathname ? "active" : ""}>
+        <Link
+          key={path}
+          to={path}
+          className={path === pathname ? "active" : ""}
+        >
           {name}
         </Link>
       ))}
