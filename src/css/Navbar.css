@@ -1,0 +1,71 @@
+/* Add a black background color to the top navigation */
+.mfly-navbar {
+  background-color: var(--blue);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.mfly-navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  height: 100%;
+}
+
+/* Change the color of links on hover */
+.mfly-navbar a:hover:not(.active) {
+  color: var(--maize);
+}
+
+/* Add an active class to highlight the current page */
+.mfly-navbar a.active {
+  background-color: var(--maize);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.mfly-navbar .icon {
+  display: none;
+}
+
+/* When the screen is less than 768 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 768px) {
+  .mfly-navbar a:not(:first-child) {
+    display: none;
+  }
+  .mfly-navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 768px) {
+  .mfly-navbar.responsive {
+    position: relative;
+  }
+  .mfly-navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .mfly-navbar.responsive a,
+  .mfly-navbar.responsive .logo {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.mfly-navbar .logo {
+  float: left;
+  vertical-align: middle;
+  padding: 3px;
+}
+
+.mfly-navbar .logo img {
+  height: 2em;
+}
