@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mfly-react-site/static/css/main.4e015abf.chunk.css",
+    "main.css": "/mfly-react-site/static/css/main.e6665c08.chunk.css",
     "main.js": "/mfly-react-site/static/js/main.39919e98.chunk.js",
     "main.js.map": "/mfly-react-site/static/js/main.39919e98.chunk.js.map",
     "runtime-main.js": "/mfly-react-site/static/js/runtime-main.be854071.js",
@@ -12,7 +12,7 @@
     "static/js/3.48945301.chunk.js.map": "/mfly-react-site/static/js/3.48945301.chunk.js.map",
     "index.html": "/mfly-react-site/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/mfly-react-site/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.4e015abf.chunk.css.map": "/mfly-react-site/static/css/main.4e015abf.chunk.css.map",
+    "static/css/main.e6665c08.chunk.css.map": "/mfly-react-site/static/css/main.e6665c08.chunk.css.map",
     "static/js/2.c67838ca.chunk.js.LICENSE.txt": "/mfly-react-site/static/js/2.c67838ca.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/mfly-react-site/static/media/regular_class.3f3c9c3a.jpeg",
     "static/media/mfly_white.7ca50813.png": "/mfly-react-site/static/media/mfly_white.7ca50813.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.be854071.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c67838ca.chunk.js",
-    "static/css/main.4e015abf.chunk.css",
+    "static/css/main.e6665c08.chunk.css",
     "static/js/main.39919e98.chunk.js"
   ]
 }
