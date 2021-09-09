@@ -1,7 +1,7 @@
 .Home {
   color: white;
 
-  .div1 {
+  .white-div {
     color: #777;
     background-color: white;
     text-align: center;
@@ -9,32 +9,12 @@
     text-align: justify;
   }
 
-  .div2 {
+  .blue-div {
     color: #ddd;
-    background-color: #282e34;
+    background-color: var(--blue);
     text-align: center;
     padding: 50px 80px;
     text-align: justify;
-  }
-
-  .div3 {
-    color: #ddd;
-    background-color: #282e34;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify;
-  }
-
-  .span1 {
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
-  }
-
-  .span2 {
-    background-color: transparent;
-    font-size: 25px;
-    color: #f7f7f7;
   }
 
   .bgimg {
@@ -45,21 +25,29 @@
     background-size: cover;
   }
 
-  .bgimg-1 {
+  .bgimg-all {
     background-image: url("../img/all_planes.jpeg");
-    background-color: var(--blue);
+    background-color: #193148;
     background-blend-mode: overlay;
-    opacity: 0.9;
-    min-height: calc(100vh - 48px);
+    min-height: 100vh;
   }
 
-  .bgimg-2 {
+  .bgimg-regular {
     background-image: url("../img/regular_class.jpeg");
+    background-color: #586a7b;
+    background-blend-mode: overlay;
     min-height: 400px;
   }
 
-  .bgimg-3 {
+  .bgimg-advanced {
     background-image: url("../img/advanced_class.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-autonomous {
+    background-image: url("../img/autonomous.png");
+    background-color: #586a7b;
+    background-blend-mode: overlay;
     min-height: 400px;
   }
 
@@ -72,8 +60,17 @@
     transform: translateY(-50%);
   }
 
+  .caption span.border {
+    background-color: var(--maize);
+    color: var(--blue);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+
   .logo {
-    height: 200px;
+    max-height: 200px;
+    max-width: 80vw;
   }
 
   h3 {
@@ -85,9 +82,7 @@
 
   /* Turn off parallax scrolling for tablets and phones */
   @media only screen and (max-device-width: 1024px) {
-    .bgimg-1,
-    .bgimg-2,
-    .bgimg-3 {
+    .bgimg {
       background-attachment: scroll;
     }
   }

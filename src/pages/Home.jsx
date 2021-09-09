@@ -18,7 +18,7 @@ export default function Home() {
         <title>M-Fly</title>
       </Helmet>
       <div className="Home">
-        <div className="bgimg bgimg-1">
+        <div className="bgimg bgimg-all">
           <div className="caption">
             <img
               src={logo}
@@ -39,57 +39,87 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="div1">
-          <h3 style={{ textAlign: "center" }}>Parallax Demo</h3>
+        <div className="white-div">
+          <h3 className="text-center">Who We Are</h3>
           <p>
-            Parallax scrolling is a web site trend where the background content
-            is moved at a different speed than the foreground content while
-            scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis
-            nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit
-            pellentesque a, magna turpis est sapien duis blandit dignissim.
-            Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum
-            consequat morbi, curabitur aliquam pede, nullam vitae eu placerat
-            eget et vehicula. Varius quisque non molestie dolor, nunc nisl
-            dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus
-            pulvinar, in in neque risus odio. Accumsan fringilla vulputate at
-            quibusdam sociis eleifend, aenean maecenas vulputate, non id
-            vehicula lorem mattis, ratione interdum sociis ornare. Suscipit
-            proin magna cras vel, non sit platea sit, maecenas ante augue etiam
-            maecenas, porta porttitor placerat leo.
+            The M-Fly Student Design team is a multidisciplinary organization
+            whose mission is to design, build, and fly aircraft. Our team
+            consists of members from many different majors and backgrounds from
+            the College of Engineering. As a team, our vision is to promote
+            aircraft design and education, and we focus on helping our team
+            members and students grow not only as engineers but also as
+            citizens.
+          </p>
+          <p>
+            Every year, we build two planes to compete in the Society of
+            Automotive Engineers (SAE) Aero Design Competition. Our SAE planes
+            focus on high-lift and payload delivery applications. These planes
+            incorporate various materials and technologies, including composites
+            and autonomous delivery gliders. We also build a third plane to
+            compete in the Association for Unmanned Vehicle Systems
+            International Student Unmanned Aerial Systems (AUVSI-SUAS)
+            Competition, with a goal of building an unmanned aerial system that
+            is capable of autonomous flight and navigation, remote sensing, and
+            the execution of specific flight systems and computer vision tasks.
           </p>
         </div>
 
-        <div className="bgimg bgimg-2">
+        <div className="bgimg bgimg-regular">
           <div className="caption">
-            <span className="border span1">LESS HEIGHT</span>
+            <span className="border">REGULAR CLASS</span>
           </div>
         </div>
 
-        <div style={{ position: "relative" }}>
-          <div className="div2">
-            <p>
-              Scroll up and down to really get the feeling of how Parallax
-              Scrolling works.
-            </p>
-          </div>
+        <div className="blue-div">
+          <p>
+            The Regular Class program is the oldest program we have at M-Fly.
+            For the past 13 years, the program has competed in the SAE Aero
+            Design competition, where it specifically partakes in the high lift
+            portion of the competition. The Regular Class planes are
+            remote-controlled, manufactured from a restrictive pool of
+            materials, and must simulate a bush plane. We are excited to compete
+            with our M-13 design for this upcoming season.
+          </p>
         </div>
 
-        <div className="bgimg bgimg-3">
+        <div className="bgimg bgimg-advanced">
           <div className="caption">
-            <span className="border span2">SCROLL UP</span>
+            <span className="border">ADVANCED CLASS</span>
           </div>
         </div>
 
-        <div style={{ position: "relative" }}>
-          <div className="div3">
-            <p>
-              Scroll up and down to really get the feeling of how Parallax
-              Scrolling works.
-            </p>
+        <div className="white-div">
+          <p>
+            The Advanced Class program is currently in its 6th year, and it also
+            partakes in the SAE Aero Design competition. The program
+            participates in a systems-focused competition in which the aircraft
+            is meant to mimic a humanitarian vehicle capable of completing a
+            colonist supply mission. The Advanced Class aircraft is also
+            expected to house small-scale deployable autonomous gliders which
+            represent the delivery aircraft. We are looking forward to kicking
+            the season off with our new MX-6 design.
+          </p>
+        </div>
+
+        <div className="bgimg bgimg-autonomous">
+          <div className="caption">
+            <span className="border">AUTONOMOUS</span>
           </div>
         </div>
 
-        <div className="bgimg bgimg-1">
+        <div className="blue-div">
+          <p>
+            The Autonomous program is currently in its 4th year and participates
+            in the AUVSI-SUAS competition. This aircraft must autonomously
+            complete a mission of flight systems and computer vision challenges,
+            including navigation, obstacle avoidance, object detection and
+            classification, and a payload drop. The Autonomous program is open
+            to all undergraduate majors and features challenging electrical
+            engineering and computer science problems.
+          </p>
+        </div>
+
+        <div className="bgimg bgimg-all">
           <div className="caption">
             <span className="border">COOL!</span>
           </div>
