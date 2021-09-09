@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mfly-react-site/static/css/main.4e015abf.chunk.css",
-    "main.js": "/mfly-react-site/static/js/main.cb92b973.chunk.js",
-    "main.js.map": "/mfly-react-site/static/js/main.cb92b973.chunk.js.map",
+    "main.js": "/mfly-react-site/static/js/main.39919e98.chunk.js",
+    "main.js.map": "/mfly-react-site/static/js/main.39919e98.chunk.js.map",
     "runtime-main.js": "/mfly-react-site/static/js/runtime-main.be854071.js",
     "runtime-main.js.map": "/mfly-react-site/static/js/runtime-main.be854071.js.map",
     "static/css/2.ec02d681.chunk.css": "/mfly-react-site/static/css/2.ec02d681.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.c67838ca.chunk.js",
     "static/css/main.4e015abf.chunk.css",
-    "static/js/main.cb92b973.chunk.js"
+    "static/js/main.39919e98.chunk.js"
   ]
 }
