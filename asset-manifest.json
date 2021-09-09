@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mfly-react-site/static/css/main.f40ea09e.chunk.css",
-    "main.js": "/mfly-react-site/static/js/main.b3ee2087.chunk.js",
-    "main.js.map": "/mfly-react-site/static/js/main.b3ee2087.chunk.js.map",
-    "runtime-main.js": "/mfly-react-site/static/js/runtime-main.faacaa64.js",
-    "runtime-main.js.map": "/mfly-react-site/static/js/runtime-main.faacaa64.js.map",
+    "main.css": "/mfly-react-site/static/css/main.4e015abf.chunk.css",
+    "main.js": "/mfly-react-site/static/js/main.cb92b973.chunk.js",
+    "main.js.map": "/mfly-react-site/static/js/main.cb92b973.chunk.js.map",
+    "runtime-main.js": "/mfly-react-site/static/js/runtime-main.be854071.js",
+    "runtime-main.js.map": "/mfly-react-site/static/js/runtime-main.be854071.js.map",
     "static/css/2.ec02d681.chunk.css": "/mfly-react-site/static/css/2.ec02d681.chunk.css",
-    "static/js/2.ead855a2.chunk.js": "/mfly-react-site/static/js/2.ead855a2.chunk.js",
-    "static/js/2.ead855a2.chunk.js.map": "/mfly-react-site/static/js/2.ead855a2.chunk.js.map",
-    "static/js/3.83b88fb4.chunk.js": "/mfly-react-site/static/js/3.83b88fb4.chunk.js",
-    "static/js/3.83b88fb4.chunk.js.map": "/mfly-react-site/static/js/3.83b88fb4.chunk.js.map",
+    "static/js/2.c67838ca.chunk.js": "/mfly-react-site/static/js/2.c67838ca.chunk.js",
+    "static/js/2.c67838ca.chunk.js.map": "/mfly-react-site/static/js/2.c67838ca.chunk.js.map",
+    "static/js/3.48945301.chunk.js": "/mfly-react-site/static/js/3.48945301.chunk.js",
+    "static/js/3.48945301.chunk.js.map": "/mfly-react-site/static/js/3.48945301.chunk.js.map",
     "index.html": "/mfly-react-site/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/mfly-react-site/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.f40ea09e.chunk.css.map": "/mfly-react-site/static/css/main.f40ea09e.chunk.css.map",
-    "static/js/2.ead855a2.chunk.js.LICENSE.txt": "/mfly-react-site/static/js/2.ead855a2.chunk.js.LICENSE.txt",
+    "static/css/main.4e015abf.chunk.css.map": "/mfly-react-site/static/css/main.4e015abf.chunk.css.map",
+    "static/js/2.c67838ca.chunk.js.LICENSE.txt": "/mfly-react-site/static/js/2.c67838ca.chunk.js.LICENSE.txt",
     "static/media/Home.scss": "/mfly-react-site/static/media/regular_class.3f3c9c3a.jpeg",
     "static/media/mfly_white.7ca50813.png": "/mfly-react-site/static/media/mfly_white.7ca50813.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.faacaa64.js",
+    "static/js/runtime-main.be854071.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.ead855a2.chunk.js",
-    "static/css/main.f40ea09e.chunk.css",
-    "static/js/main.b3ee2087.chunk.js"
+    "static/js/2.c67838ca.chunk.js",
+    "static/css/main.4e015abf.chunk.css",
+    "static/js/main.cb92b973.chunk.js"
   ]
 }
