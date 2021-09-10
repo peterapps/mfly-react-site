@@ -4,11 +4,14 @@ import AOS from "aos";
 
 import "../css/Home.scss";
 import logo from "../img/mfly_white.png";
+import regular from "../img/regular2.jpg";
+import advanced from "../img/advanced2.jpg";
+import auton from "../img/auton2.jpg";
 
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      easing: "ease",
     });
   }, []);
 
@@ -25,14 +28,14 @@ export default function Home() {
               alt="M-Fly"
               className="logo"
               data-aos="fade-up"
-              data-aos-easing="ease"
               data-aos-delay="400"
+              data-aos-duration="2000"
             />
             <h1
               data-aos="fade-up"
-              data-aos-easing="ease"
               data-aos-delay="800"
               data-aos-anchor=".Home .logo"
+              data-aos-duration="2000"
             >
               Welcome aboard.
             </h1>
@@ -66,19 +69,21 @@ export default function Home() {
 
         <div className="bgimg bgimg-regular">
           <div className="caption">
-            <span
-              className="border"
-              data-aos="fade-up"
-              data-aos-easing="ease"
-              data-aos-duration="1000"
-            >
+            <span className="border" data-aos="fade-up">
               REGULAR CLASS
             </span>
           </div>
         </div>
 
         <div className="blue-div">
-          <p>
+          <p className="clearfix">
+            <img
+              src={regular}
+              alt="Regular Class"
+              className="img float-right"
+              data-aos="fade-left"
+              data-aos-easing="ease"
+            />
             The Regular Class program is the oldest program we have at M-Fly.
             For the past 13 years, the program has competed in the SAE Aero
             Design competition, where it specifically partakes in the high lift
@@ -91,19 +96,20 @@ export default function Home() {
 
         <div className="bgimg bgimg-advanced">
           <div className="caption">
-            <span
-              className="border"
-              data-aos="fade-up"
-              data-aos-easing="ease"
-              data-aos-duration="1000"
-            >
+            <span className="border" data-aos="fade-up">
               ADVANCED CLASS
             </span>
           </div>
         </div>
 
         <div className="white-div">
-          <p>
+          <p className="clearfix">
+            <img
+              src={advanced}
+              alt="Advanced Class"
+              className="img float-left"
+              data-aos="fade-right"
+            />
             The Advanced Class program is currently in its 6th year, and it also
             partakes in the SAE Aero Design competition. The program
             participates in a systems-focused competition in which the aircraft
@@ -117,19 +123,20 @@ export default function Home() {
 
         <div className="bgimg bgimg-autonomous">
           <div className="caption">
-            <span
-              className="border"
-              data-aos="fade-up"
-              data-aos-easing="ease"
-              data-aos-duration="1000"
-            >
+            <span className="border" data-aos="fade-up">
               AUTONOMOUS
             </span>
           </div>
         </div>
 
         <div className="blue-div">
-          <p>
+          <p className="clearfix">
+            <img
+              src={auton}
+              alt="Autonomous"
+              className="img float-right"
+              data-aos="fade-left"
+            />
             The Autonomous program is currently in its 4th year and participates
             in the AUVSI-SUAS competition. This aircraft must autonomously
             complete a mission of flight systems and computer vision challenges,

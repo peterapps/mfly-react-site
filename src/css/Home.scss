@@ -1,12 +1,25 @@
 .Home {
   color: white;
 
+  .img {
+    max-width: 40vw;
+    padding: 0px 50px 0px 50px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .img {
+      max-width: 80vw;
+      float: none !important;
+      padding: 50px 0px 50px 0px;
+    }
+  }
+
   .white-div {
     color: #777;
     background-color: white;
     text-align: center;
     padding: 50px 80px;
-    text-align: justify;
+    text-align: left;
   }
 
   .blue-div {
@@ -14,7 +27,7 @@
     background-color: var(--blue);
     text-align: center;
     padding: 50px 80px;
-    text-align: justify;
+    text-align: left;
   }
 
   .bgimg {
